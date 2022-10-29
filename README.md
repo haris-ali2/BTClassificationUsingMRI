@@ -11,6 +11,7 @@ This Repo contains the classification model built on MR images for the classific
     - Glioma
     - Meningioma
 2. The datset can be found [here](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri?select=Training).
+3. The `no_tumor` class contains half the examples than the other 3 classes. To mitigate this problem, the data from [Br35H](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection?select=no) is used to increase the examples in the `no_tumor` class and its size is made equal to the other 3 classes.  
 
 ## Model
 
